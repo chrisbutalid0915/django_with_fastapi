@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fastapi-oauth"
+version = "0.1.0"
+description = ""
+authors = ["chrisbutalid0915 <chrisbutalid@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_oauth"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.96.0"
+python-multipart = "^0.0.6"
+uvicorn = "^0.22.0"
+Django = "^4.2.1"
+asgiref = "^3.7.2"
+starlette = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
